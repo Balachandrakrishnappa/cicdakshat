@@ -16,7 +16,7 @@ pipeline
         }
         stage('code testing'){
             steps{
-                echo 'testing the fuctionality of the code'
+                echo 'testing the fuctionality of the code..........'
                 sh "mvn test"
             }
         }
